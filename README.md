@@ -11,6 +11,9 @@ Mini Project for C++ Summer Course 2024
 - Inheritance
 - Polymosphism
 
-Particulars:
+### Particulars:
 - Function overloading
 - Namespace
+- Access Specifiers
+- Objects
+- Classes
