@@ -5,7 +5,7 @@ Mini Project for C++ Summer Course 2024
 - Creating an audio application inorder to play and record audio files using OOP concepts.
 - Futhermore, additional features can include effects such as amplification, reverb and echo.
 
-## OOP concepts:
+## C++ and OOP concepts:
 - Data Abstraction
 - Encapsulation
 - Inheritance
