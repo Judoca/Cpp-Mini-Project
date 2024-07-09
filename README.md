@@ -14,3 +14,4 @@ Mini Project for C++ Summer Course 2024
 Particulars:
 - Function overloading
 - Namespace
+- Default parameters
