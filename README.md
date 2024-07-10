@@ -17,3 +17,14 @@ Mini Project for C++ Summer Course 2024
 - Access Specifiers
 - Objects
 - Classes
+
+# How to execute:
+
+The following command compiles ```main.cpp```
+```
+g++ main.cpp -lsfml-audio -lsfml-system
+```
+After compilation, run the ```a.out``` file:
+```
+./a.out
+```
