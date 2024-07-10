@@ -5,7 +5,7 @@ Mini Project for C++ Summer Course 2024
 - Creating an audio application inorder to randomly generate and play a melody.
 - Futhermore, additional features can include effects such as amplification, reverb and echo.
 
-![sin wave](https://www.google.com/imgres?q=sine%20wave&imgurl=https%3A%2F%2Fforum.affinity.serif.com%2Fuploads%2Fmonthly_2020_04%2F13949607_SineWave.png.e5ffe6e1a205da8bc802c3907fe7a40c.png&imgrefurl=https%3A%2F%2Fforum.affinity.serif.com%2Findex.php%3F%2Ftopic%2F111738-how-do-i-write-the-equation-for-a-sine-wave%2F&docid=-tBSPDj4tf0k6M&tbnid=9xjxkM63kVNYbM&vet=12ahUKEwimm7WW3ZuHAxUqxjgGHU7gDw8QM3oECBcQAA..i&w=800&h=250&hcb=2&ved=2ahUKEwimm7WW3ZuHAxUqxjgGHU7gDw8QM3oECBcQAA)
+![sin wave](https://www.google.com/url?sa=i&url=https%3A%2F%2Fmathematicalmysteries.org%2Fsine-wave%2F&psig=AOvVaw0kXgCb-VKHUcGatZUMQd-R&ust=1720675392133000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPjC68Tdm4cDFQAAAAAdAAAAABAE)
 
 ## C++ and OOP concepts:
 - Data Abstraction
