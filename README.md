@@ -42,12 +42,12 @@ It also includes some of its attributes such as the cycles, amplitude and time.
 
 ### Headers:
 
-```SFML/Audio.hpp```	-> main header for audio operations
-```vector```		-> to store the current samples
-```sound.h```		-> to define a sin wave
-```time.h```		-> used for delay
-```chrono```		-> used for delay
-```thread```		-> used for delay
+- ```SFML/Audio.hpp```	-> main header for audio operations
+- ```vector```		-> to store the current samples
+- ```sound.h```		-> to define a sin wave
+- ```time.h```		-> used for delay
+- ```chrono```		-> used for delay
+- ```thread```		-> used for delay
 
 ### get_freq():
 
