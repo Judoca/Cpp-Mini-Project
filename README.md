@@ -40,7 +40,7 @@ It also includes some of its attributes such as the cycles, amplitude and time.
 
 ```main.cpp``` consists of the ```main()``` function as well as all functions to be used in the project such as the generation of the random frequencies ```get_freq()``` and the playback of the sin wave ```gen_wave(double freq)```.
 
-# Headers:
+### Headers:
 
 ```SFML/Audio.hpp```	-> main header for audio operations
 ```vector```		-> to store the current samples
@@ -49,7 +49,7 @@ It also includes some of its attributes such as the cycles, amplitude and time.
 ```chrono```		-> used for delay
 ```thread```		-> used for delay
 
-# get_freq():
+### get_freq():
 
 ```const double soun_freqs[14]``` contains the soundset used for the generator.
 
@@ -58,12 +58,12 @@ A3 B3 C4 D4 E4 F4 G4 A4 B4 C5 D5 E5 F5 G5
 
 ```get_freq()``` obtains a random number within the index range of the soundset (here from 0 to 13) and uses the index to return a random frequency from it.
 
-# gen_wave(double freq):
+### gen_wave(double freq):
 
 Takes in the random frequency value generated from ```get_freq()``` and used it in order to generate the sound sample using the sin wave obtained from ```sound.h```.
 
 It then loads the sample into a buffer, which is played back using ```sound1.play```
 
-# main():
+### main():
 
 The user is asked for the number of notes they would like in their melody and then the functions ```get_freq()``` and ```gen_wave``` is called in a loop based on the number of notes the user has given.
