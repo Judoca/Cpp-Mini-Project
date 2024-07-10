@@ -3,7 +3,6 @@ Mini Project for C++ Summer Course 2024
 
 ## Project statement: 
 - Creating an audio application inorder to randomly generate and play a melody.
-- Futhermore, additional features can include effects such as amplification, reverb and echo.
 
 ## C++ and OOP concepts:
 - Data Abstraction
