@@ -67,3 +67,7 @@ It then loads the sample into a buffer, which is played back using ```sound1.pla
 ### main():
 
 The user is asked for the number of notes they would like in their melody and then the functions ```get_freq()``` and ```gen_wave``` is called in a loop based on the number of notes the user has given.
+
+# Future:
+
+- Include music theory: different scales and arpeggios as a choice to choose from in the soundset.

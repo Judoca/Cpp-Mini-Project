@@ -10,6 +10,7 @@
 #include	<time.h>
 #include	<chrono>
 #include	<thread>
+#include	<string>
 
 using namespace std;
 
@@ -30,16 +31,33 @@ const double sound_freqs[14] = {
 	783.99
 };
 
+const string notes[14] = {
+	"A3",
+	"B3",
+	"C4",
+	"D4",
+	"E4",
+	"F4",
+	"G4",
+	"A4",
+	"B4",
+	"C5",
+	"D5",
+	"E5",
+	"F5",
+	"G5"
+};
+
 sf::SoundBuffer buffer;
 sf::Sound sound1;
 
-double get_freq()
+int get_freq()
 {
 	int index = rand() % 14;  // generates random number between 0 and 13
-	return sound_freqs[index];
+	return index;
 }
 
-void gen_wave(double freq)
+void gen_wave(double freq, int j)
 {
 	vector<sf::Int16> samples;
 
@@ -51,16 +69,17 @@ void gen_wave(double freq)
 	buffer.loadFromSamples(&samples[0], samples.size(), 1, 44100);
 
 	sound1.setBuffer(buffer);
+	cout<<"Frequency playing: "<<notes[j]<<"\t"<<freq<<endl;
 	sound1.play();
 	this_thread::sleep_for(chrono::seconds(1));
 	sound1.stop();
-	cout<<"Frequency playing: "<<freq<<endl;
 }
 
 int main()
 {
-	int n;
+	int n, i;
 	double freq;
+	string note;
 
 	srand (time(NULL));	// initilize the random seed
 
@@ -72,11 +91,12 @@ int main()
 	while (n > 0) {
 
 		//function to generate random frequencies
-		freq = get_freq();
-	
+		i = get_freq();
+		freq = sound_freqs[i];
+		
 		//function to generate the sin wave for the frequecies and play
 		//back
-		gen_wave(freq);
+		gen_wave(freq, i);
 
 		n--;
 	}
